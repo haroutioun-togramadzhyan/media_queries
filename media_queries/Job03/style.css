@@ -1,0 +1,38 @@
+
+.section1, .section2, .section3, .section4 {
+    padding: 30px;
+    background-color: #88c1d0;
+    margin: 10px;
+    width: 75px;
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 1600px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+}

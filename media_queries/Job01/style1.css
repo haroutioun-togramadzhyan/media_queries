@@ -1,0 +1,17 @@
+
+
+@media (min-width: 1920px) {
+    .variable {
+        background-color: #88c1d0;
+    }
+}
+
+/* width = largeur */
+
+
+.variable {
+    height: 100vh;
+    transition: background-color 0.5s ease;
+    }
+
+    /* l'argument "variable" est relié au html dans le "body" */
